@@ -1,0 +1,7 @@
+.body {
+  background-color: #efeeec;
+  height: 100%;
+}
+.searchBar:hover {
+  box-shadow: 10px 10px red;
+}

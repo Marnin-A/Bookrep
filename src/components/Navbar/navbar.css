@@ -1,3 +1,55 @@
 .navbar {
   display: flex;
+  position: sticky;
+  height: 5em;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+
+#Logo {
+  align-self: flex-start;
+  height: 5em;
+}
+
+.navBtn {
+  margin-left: 1em;
+  margin-right: 1em;
+  text-decoration: none;
+  color: black;
+}
+
+.navBtn:hover {
+  color: #ed9526;
+}
+.searchBox {
+  margin: auto;
+  position: relative;
+  background-color: #d8d8d8;
+  width: 13em;
+  height: 2em;
+  padding: 0em 2em;
+  border-radius: 2em;
+}
+.searchBox:hover {
+  box-shadow: 1px 0px 5px 1px rgb(191, 186, 186);
+}
+.searchContainer {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.searchIcon {
+  height: 1em;
+  padding-top: 0.35em;
+}
+.search {
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  background-color: #d8d8d8;
 }
