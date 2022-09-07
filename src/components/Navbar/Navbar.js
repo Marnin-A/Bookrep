@@ -1,5 +1,10 @@
 import React from "react";
+import BookrepLogo from "../../images/BookrepLogo.png";
 
 export default function Navbar() {
-  return <div></div>;
+  return (
+    <div className="navbar">
+      <img src={BookrepLogo} alt="BookrepLogo" />
+    </div>
+  );
 }
