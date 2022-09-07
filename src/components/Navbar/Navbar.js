@@ -7,15 +7,18 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <img id="Logo" src={Logo} alt="BookrepLogo" />
-      <a className="navBtn" href="#">
-        Explore
-      </a>
-      <a className="navBtn" href="#">
-        Request
-      </a>
-      <a className="navBtn" href="#">
-        Issues
-      </a>
+
+      <div className="Btns">
+        <a className="navBtn" href="#">
+          Explore
+        </a>
+        <a className="navBtn" href="#">
+          Request
+        </a>
+        <a className="navBtn" href="#">
+          Issues
+        </a>
+      </div>
       <div class="searchBox">
         <table className="searchContainer">
           <tr key="">
