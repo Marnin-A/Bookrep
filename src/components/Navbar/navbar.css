@@ -2,13 +2,12 @@
   --yellow: #ed9526;
   --balck: #000;
   --blue: #c4dcfe;
-  --speed: 500ms;
 }
 .navbar {
   display: flex;
   position: sticky;
   height: 4em;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   background-color: white;
 }
@@ -19,14 +18,14 @@
   margin-right: 3em;
 }
 
-.navBtn {
+.nav-Btn {
   margin-left: 1em;
   margin-right: 1em;
   text-decoration: none;
   color: black;
 }
 
-.navBtn:hover {
+.nav-Btn:hover {
   color: var(--yellow);
 }
 .searchBox {
@@ -59,4 +58,14 @@
   height: 100%;
   width: 100%;
   background-color: #d8d8d8;
+}
+
+.Dash-Btn {
+  margin-right: 3em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0em;
+  padding: 0em;
 }

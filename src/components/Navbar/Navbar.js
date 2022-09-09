@@ -2,21 +2,21 @@ import React from "react";
 import Logo from "../../images/BookrepLogo.png";
 import SearchIcon from "../../images/searchIcon.png";
 import "./navbar.css";
-import Dropdown from "../Dropdown/Dropdown";
+import Dashboard from "../Dashboard/Dashboard.js";
 
 export default function Navbar(props) {
   return (
-    <div className="navbar">
+    <ul className="navbar">
       <img id="Logo" src={Logo} alt="BookrepLogo" />
 
       <div className="Btns">
-        <a className="navBtn" href="#">
+        <a className="nav-Btn" href="#">
           Explore
         </a>
-        <a className="navBtn" href="#">
+        <a className="nav-Btn" href="#">
           Request
         </a>
-        <a className="navBtn" href="#">
+        <a className="nav-Btn" href="#">
           Issues
         </a>
       </div>
@@ -32,7 +32,7 @@ export default function Navbar(props) {
           </tr>
         </table>
       </div>
-      <Dropdown className="DashBtn"></Dropdown>
-    </div>
+      <Dashboard icon="😊">Hello world</Dashboard>
+    </ul>
   );
 }
