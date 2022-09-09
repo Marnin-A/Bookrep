@@ -2,8 +2,9 @@ import React from "react";
 import Logo from "../../images/BookrepLogo.png";
 import SearchIcon from "../../images/searchIcon.png";
 import "./navbar.css";
+import Dropdown from "../Dropdown/Dropdown";
 
-export default function Navbar() {
+export default function Navbar(props) {
   return (
     <div className="navbar">
       <img id="Logo" src={Logo} alt="BookrepLogo" />
@@ -31,7 +32,7 @@ export default function Navbar() {
           </tr>
         </table>
       </div>
-      <div className="DashBtn">Dashboard</div>
+      <Dropdown className="DashBtn"></Dropdown>
     </div>
   );
 }

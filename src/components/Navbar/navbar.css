@@ -2,21 +2,21 @@
   --yellow: #ed9526;
   --balck: #000;
   --blue: #c4dcfe;
+  --speed: 500ms;
 }
 .navbar {
   display: flex;
   position: sticky;
-  height: 3em;
-  justify-content: space-evenly;
+  height: 4em;
+  justify-content: flex-end;
   align-items: center;
   background-color: white;
 }
 
 #Logo {
   align-self: flex-start;
-  height: 3.2em;
-  margin-left: 5em;
-  margin-right: 5em;
+  height: 4em;
+  margin-right: 3em;
 }
 
 .navBtn {

@@ -1,0 +1,5 @@
+.DashBtn {
+  margin-right: 3em;
+  display: flex;
+  flex-direction: row;
+}
