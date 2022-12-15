@@ -1,5 +1,6 @@
 import React from "react";
 import "./Dashboard.css";
+import Caret from "../../images/Caret_down_font_awesome.png";
 import { useState } from "react";
 
 export default function Dashboard(props) {
@@ -7,9 +8,10 @@ export default function Dashboard(props) {
   return (
     <li className="Dash-Btn">
       <a href="#" className="Dashboard-sub" onClick={() => setOpen(!open)}>
-        {props.icon}
+        Dashboard
+        <img id="caret" src={Caret} alt="" />
+        <span className="profile-pic">{props.icon}</span>
       </a>
-      <span>Dashboard</span>
       {open && props.children}
     </li>
   );

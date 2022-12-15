@@ -1,33 +1,65 @@
 :root {
   --border-radius: 8px;
   --speed: 500ms;
-  --nav-size: 3em;
+  --nav-size: 8em;
 }
 .Dash-Btn {
-  width: calc(var(--nav-size) * 0.8);
+  width: var(--nav-size);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .Dashboard-sub {
-  --button-size: calc(var(--nav-size) * 0.5);
-  width: var(--button-size);
-  height: var(--button-size);
-  background-color: #4f81bd;
-  border-radius: 50%;
-  padding: 5px;
-  margin: 2px;
+  --button-size: calc(var(--nav-size) / 5.34);
+  width: max-content;
+  height: 4em;
+  margin-left: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: 300ms;
 }
 
-.Dashboard-sub:hover {
-  filter: brightness(1.2);
+#caret {
+  margin-left: calc(var(--nav-size) * 0.1);
+  margin-right: calc(var(--nav-size) * 0.1);
+  height: calc(var(--nav-size) / 4.5);
+  width: 1.2em;
+}
+.profile-pic {
+  width: var(--button-size);
+  height: var(--button-size);
+  background-color: #767a7f;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 2px;
+  margin-right: calc(var(--nav-size) * 0.4);
 }
 a {
   color: var(--balck);
   text-decoration: none;
+}
+
+.dropdown {
+  position: absolute;
+  top: 58px;
+  width: calc(var(--nav-size));
+  transform: translate(-45%);
+  background-color: #d8d8d8;
+  border: white;
+  overflow: hidden;
+}
+
+.menu-item {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--border-radius);
+  transition: background var(--speed);
+  padding: 0.5rem;
+}
+
+.menu-item:hover {
+  background-color: #f8f5f5;
 }
