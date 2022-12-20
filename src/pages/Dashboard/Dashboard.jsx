@@ -9,13 +9,9 @@ export default function Dashboard(props) {
     setOpen(!open);
   };
   return (
-    <li className="Dash-Btn">
-      <a href="#" className="Dashboard-sub" onClick={() => setOpen(!open)}>
-        Dashboard
-        <img id="caret" src={Caret} alt="" />
-        <span className="profile-pic">{props.icon}</span>
-      </a>
-      {open && props.children}
-    </li>
+    <div>
+      <button onClick={handleOpen}>Dropdown</button>
+      <span className="profile-pic">{props.icon}</span>
+    </div>
   );
 }
