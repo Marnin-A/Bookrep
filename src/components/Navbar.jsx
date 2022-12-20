@@ -1,8 +1,8 @@
 import React from "react";
-import Logo from "../../assets/BookrepLogo.png";
-import SearchIcon from "../../assets/searchIcon.png";
-import "./navbar.css";
-import Dashboard from "../Dashboard/Dashboard.jsx";
+import Logo from "../assets/BookrepLogo.png";
+import SearchIcon from "../assets/searchIcon.png";
+import "./card";
+import Dashboard from "../pages/Dashboard/Dashboard.jsx";
 
 export default function Navbar() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Dashboard.css";
-import Caret from "../../assets/Caret_down_font_awesome.png";
+import Caret from "../../assets/Caret_down_font_awesome.svg";
 import { useState } from "react";
 
 export default function Dashboard(props) {
