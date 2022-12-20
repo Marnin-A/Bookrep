@@ -3,7 +3,6 @@ import Logo from "../../assets/BookrepLogo.png";
 import SearchIcon from "../../assets/searchIcon.png";
 import "./navbar.css";
 import Dashboard from "../Dashboard/Dashboard.jsx";
-import DropdownItem from "../Dashboard/Dropdown";
 
 export default function Navbar() {
   return (
@@ -33,10 +32,10 @@ export default function Navbar() {
           </tr>
         </table>
       </div>
-      <Dashboard icon="😊">
+      {/* <Dashboard icon="😊">
         <DropdownItem name="Home" />
         <DropdownItem name="Courses" />
-      </Dashboard>
+      </Dashboard> */}
     </ul>
   );
 }

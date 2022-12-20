@@ -5,6 +5,9 @@ import { useState } from "react";
 
 export default function Dashboard(props) {
   const [open, setOpen] = useState(false);
+  const handleOpen = () => {
+    setOpen(!open);
+  };
   return (
     <li className="Dash-Btn">
       <a href="#" className="Dashboard-sub" onClick={() => setOpen(!open)}>
