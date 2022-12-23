@@ -1,5 +1,5 @@
 import React from "react";
-import LoginImg from "../../assets/LoginPageLeft.jpeg";
+import LoginImg from "../../assets/LoginPageLeft.avif";
 import "./signup.css";
 
 const SignUp = () => {
@@ -62,6 +62,18 @@ const SignUp = () => {
                 </a>
               </span>
             </div>
+            <div className="sign-up">
+              <button id="sign-up-btn">Create Account</button>
+              <span>
+                {"\u00A0"}
+                {"\u00A0"}or{"\u00A0"}
+                {"\u00A0"}
+                <a href="">Signup with Google</a>
+                <a href="">Signup with Facebook</a>
+              </span>
+            </div>
+
+            {/*🟡 Add create account button🟡 */}
           </form>
         </div>
       </div>

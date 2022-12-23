@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "../assets/BookrepLogo.png";
-import SearchIcon from "../assets/searchIcon.png";
+import Logo from "../assets/BookrepLogo.avif";
+import SearchIcon from "../assets/searchIcon.avif";
 import "./card";
 import Dashboard from "../pages/Dashboard/Dashboard.jsx";
 
