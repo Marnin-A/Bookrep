@@ -5,10 +5,10 @@
 
 .signUpImg {
   width: 35vw;
-  height: 105vh;
+  height: 100vh;
 }
 .signCard {
-  margin: 5px 50px 50px;
+  margin: -15px 5px 50px 50px;
   position: absolute;
   left: 43%;
 }
@@ -182,4 +182,48 @@ input:checked + .slider:before {
 
 .legal-links {
   color: #2196f3;
+}
+
+.sign-up {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+#sign-up-btn {
+  height: 30px;
+  color: #4d5fab;
+  background-color: #c4dcfe;
+  border: none;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+#sign-up-btn:hover {
+  border: 1px solid #4d5fab;
+  box-shadow: 1px 0px 15px #b5b4b4;
+}
+
+#alternate-sign-ups {
+  display: flex;
+  flex-direction: row;
+}
+
+.sign-up-text {
+  font-size: 0.8em;
+}
+.sign-up-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#google-sign-up {
+  margin-right: 20px;
+}
+
+#facebook-sign-up {
+  margin-left: 20px;
 }
