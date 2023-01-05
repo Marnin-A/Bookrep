@@ -88,8 +88,6 @@ const SignUp = () => {
                 </div>
               </div>
             </div>
-
-            {/*🟡 Add create account button🟡 */}
           </form>
         </div>
       </div>

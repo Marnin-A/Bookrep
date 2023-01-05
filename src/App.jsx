@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <SignUp />
-      {/* 🟡Use the new test branch to test dropdown menus🟡 */}
+      {/* 🟡Create User Dashboard🟡 */}
     </div>
   );
 }
